@@ -35,15 +35,7 @@ class _OnBoardingState extends State<OnBoarding> {
         height: MediaQuery.of(context).size.height,
         padding: const EdgeInsets.symmetric(vertical: 80.0),
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-              Color(0xff161616),
-              Color(0xff171717),
-            ],
-            stops: [0.25, 0.75],
-            begin: Alignment.bottomCenter,
-            end: Alignment.topCenter,
-          ),
+          gradient: kPrimaryBackgroundGradient,
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
